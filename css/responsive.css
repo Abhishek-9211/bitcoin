@@ -1,0 +1,87 @@
+
+@media (max-width: 1199px) {
+.banner { padding: 50px 0 40px; }
+.bannerAreaLeft h1 { font-size: 50px; line-height: 60px; }
+.bannerAreaLeft h3 { font-size: 24px; }
+.bannerAreaLeft p { font-size: 16px; line-height: 25px;}
+.logLeft { width: 450px; }
+.bannerAreaRight .bannerImg_1 { width: 455px;}
+.bannerAreaRight .bannerImg_2 { width: 370px; left: 47px; top: 22px; } 
+.smartContractInner h4 {font-size: 18px; line-height: 20px;}
+.smartContractInner h4 {font-size: 18px; line-height: 20px;}
+}	
+	
+@media (max-width: 991px) {
+h2 { font-size: 32px; line-height: 37px; margin:0 0 10px; }
+h3 { font-size: 28px; line-height: 35px; margin:0 0 10px;}
+.headingOther h2 { font-size: 34px; line-height: 40px;}
+.headingOther p { font-size: 14px; line-height: 20px;}
+
+header { min-height: auto; }
+.navbar-brand > img { width: 160px; }
+.navbar-nav { background: #041c34; width: 100%;}
+.navbar-light .navbar-toggler { background: #e9d16f;}
+.navbar-light .navbar-toggler:hover, .navbar-light .navbar-toggler:focus { outline: none; background: #ffce00;}
+.navbar-nav li { border-bottom: 1px solid rgba( 255 255 255 / 10%);  padding: 0; width: 100%;}
+.navbar-light .navbar-nav .nav-link { border-radius: 0; color: #fff;  font-size: 15px;  padding: 10px 15px;  text-align: right;}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {background: #e9d16f; color: #000; }
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus { background: #e9d16f; color: #000; }
+.navbar-nav li.nav-itemBtn {margin: 0; padding: 0; }
+.navbar-nav li .btn { background: transparent;  padding: 10px 15px; color: #fff;width: 100%; text-align: right; text-transform: capitalize; border: none;}
+
+.bannerRES:nth-child(1){order:2;}
+.bannerRES:nth-child(2){order:1;}
+.banner { padding: 50px 0 40px;}
+.bannerAreaLeft { text-align: center;}
+.bannerAreaLeft h1 { font-size: 48px; line-height: 55px;}
+.bannerAreaRight { text-align: center;}
+.bannerAreaRight .banner_right { width: 410px; }
+.bannerAreaRight .bannerImg_1 { width: 455px; left: 19%; }
+.bannerAreaRight .bannerImg_2 { width: 340px; left: 26%; top: 21px; }
+
+.marketingMain { padding: 70px 0 40px; }
+.marketingLeft { text-align: center; }
+.marketingInner { text-align: center; }
+.marketingInner h2  { font-size: 32px; line-height: 37px;}
+.marketingInnerBtn .btnTheme { padding: 10px 20px; font-size: 14px; min-width: auto; }
+
+.smartContractMain { padding: 70px 0 20px;}
+.smartContractLeft img { width: 300px; margin: auto; display: block;}
+.smartRES:nth-child(1) { order: 2;}
+.smartRES:nth-child(2) { order: 1;}
+.smartRES:nth-child(3) { order: 3;}
+.smartContractLeft img { width: 300px; margin: auto; display: block;}
+.smartContractCenter .bg_map img { width: 450px; }
+.testimonialsMain { padding: 70px 0 40px; }
+.footerInner { min-height: 130px; }
+.footerTop h3 { font-size: 18px; }
+}
+
+
+@media (max-width: 767px) {
+.headingOther h2 { font-size: 30px; line-height: 35px;}
+.headingOther p { font-size: 16px; line-height: 21px;}
+h2 { font-size: 28px; line-height: 35px;  margin:0 0 10px 0;}
+h3 { font-size: 24px; line-height: 29px;}
+.bannerAreaLeft {margin: 0 0 30px; }
+.bannerAreaLeft h1 { font-size: 34px; line-height: 40px; margin: 0 0 30px; }
+.bannerAreaLeft p { font-size: 18px; line-height: 25px; }
+.bannerAreaRight .bannerImg_1 { width: 455px; left: 50%; top: 4%; position: absolute; animation: unset;    transform: translate(-50%, 0);}
+.bannerAreaRight .bannerImg_2 { width: 345px; left: 50%; top: 4%; position: absolute; animation: unset; transform: translate(-50%, 0);}
+.featuresInner { min-height: auto; }
+.footerTop { padding: 50px 0 20px; }
+.footerTop h3 { font-size: 20px; }
+.footerInner p { font-size: 14px;  line-height: 19px; }
+.footerInner ul li a {  font-size: 14px;  line-height: 19px; }
+.bannerAllInner h1 { font-size: 40px; line-height: 50px; }
+.aboutLeft .about_eth_1, .aboutLeft .about_eth_2, .aboutLeft .about_eth_3, .aboutLeft .about_eth_4 {display: none;}
+}
+
+@media (max-width: 576px) {
+.bannerAreaRight .banner_right { width: 300px;}
+.bannerAreaRight .bannerImg_1 { width: 320px;top: 6%;}
+.bannerAreaRight .bannerImg_2 { width: 245px;top: 6%;}
+.smartContractRight { text-align: left; }
+.testimonialsDetail { padding: 0; }
+}
+
